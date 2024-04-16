@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h2{
+  text-align: center;
+}
+
+
+.icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.yellow-icon {
+  background-color: #f7e00f;
+}
+
+.black-icon {
+  background-color: #333;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  color: #666;
+}
+button {
+  background-color: #14141377; /* Blue background */
+  border: none; /* No border */
+  color: rgb(247, 252, 0); /* White text */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* No text decoration */
+  display: inline-block; /* Make it an inline block element */
+  font-size: 20px; /* Set the font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Make the cursor a pointer on hover */
+  border-radius: 5px; /* Round the corners */
+  transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
+button:hover {
+  background-color: #000000;
+  color: rgba(238, 255, 3, 0.623); /* Darker blue background on hover */
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Fill the entire height of the viewport */
+}
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%; /* Optional: set a specific width for the image */
+}
+img{
+  width: 20%;
+  
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:90px;
+  height: 10vh;
+  
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .section {
+    margin-bottom: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.2rem;
+  }
+
+  .section p {
+    font-size: 0.9rem;
+  }
+  button {
+    background-color: #14141377; /* Blue background */
+    border: none; /* No border */
+    color: rgb(247, 252, 0); /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No text decoration */
+    display: inline-block; /* Make it an inline block element */
+    font-size: 20px; /* Set the font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Make the cursor a pointer on hover */
+    border-radius: 5px; /* Round the corners */
+    transition: background-color 0.3s ease; /* Add a transition effect */
+  }
+  
+  button:hover {
+    background-color: #000000;
+    color: rgba(238, 255, 3, 0.623); /* Darker blue background on hover */
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Fill the entire height of the viewport */
+  }
+  .centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; /* Optional: set a specific width for the image */
+  }
+  img{
+    width: 20%;
+    
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    height: 10vh;
+    
+  }
+  .ajuda {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ajuda .yellow-icon {
+    margin-right: 10px;
+  }
+  .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  .link-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  }
